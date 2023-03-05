@@ -1,0 +1,173 @@
+* {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  color: hsl(223, 47%, 23%);
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position: center; */
+  box-sizing: border-box;
+  background-color: hsl(225, 100%, 94%);
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 1rem 0 2rem 0;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 5px #2e3840;
+  border: 0px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(123, 104, 238, 1);
+  transition: background-color 250ms ease-in-out;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  /* width: 80%; */
+  max-height: 100%;
+  width: 350px;
+  margin: 0 2rem 0 2rem;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  padding-bottom: 1rem;
+  box-shadow: 0 0 15px 3px #2e3840;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  overflow: clip;
+}
+
+.music-icon {
+  width: 15%;
+  padding: 0 1rem 0 0;
+}
+
+.card-header {
+  font-weight: 900;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1.4rem;
+}
+
+.pricing-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 70%;
+}
+
+.pricing-panel > span > span {
+  /* padding: 0 1rem 0 1rem; */
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+
+.pricing-panel > span {
+  text-align: left;
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.pricing-panel a {
+  padding: 0 0 0 2.5rem;
+  font-size: 0.9rem;
+}
+
+.pricing-panel a:hover,
+.pricing-panel a:focus {
+  cursor: pointer;
+  color: mediumslateblue;
+  text-decoration: none;
+  transition: text-decoration, background-color 250ms ease-in-out;
+}
+
+.pricing-panel > a {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.card-text,
+.cancel-order {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  padding: 0 0 1.25rem 0;
+  width: 75%;
+  font-size: 0.9rem;
+}
+
+.cancel-order {
+  font-weight: 900;
+}
+
+.cancel-order:hover,
+.cancel-order:focus {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+  transition: color 250ms ease-in-out;
+}
+
+.footer-text {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 15px;
+}
+
+.footer-text a:hover,
+.footer-text a:focus {
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: color, font-size 250ms ease-in-out;
+  transform: translate(100px, 100px);
+}
+
+@media (max-width: 360px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-position: center;
+  }
+  .card-container {
+    width: 250px;
+  }
+
+  .pricing-panel > span,
+  .pricing-panel > a,
+  .card-text,
+  button,
+  cancel-order {
+    font-size: 0.7rem;
+  }
+  .card-header {
+    font-size: 1rem;
+  }
+}
