@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/DevTruce/order-summary)
+- Solution URL: [FEM Solution](https://www.frontendmentor.io/solutions/order-summary-challenge-html-css-flexbox-9maN1Rzz1P)
 - Live Site URL: [Live Site](https://devtruce.github.io/order-summary/)
 
 ## My process
