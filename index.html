@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
-    <!-- LINKS -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
 
     <link
       rel="icon"
@@ -15,41 +13,57 @@
       href="./images/favicon-32x32.png"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Red+Hat+Display:ital,wght@0,500;0,900;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- LINKS -->
-
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
     <main class="card-container">
-      <img
-        class="card-image"
-        src="images/illustration-hero.svg"
-        alt="person dancing"
-      />
-      <h1 class="card-header">Order Summary</h1>
-      <p class="card-text">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      <section class="pricing-panel">
-        <img class="music-icon" src="images/icon-music.svg" alt="music icon" />
-        <span>Annual Plan <br /><span>$59.99/year</span></span>
+      <picture class="image-container">
+        <img
+          class="image"
+          src="src/images/illustration-hero.svg"
+          alt="person dancing"
+        />
+      </picture>
 
-        <a href="#">Change</a>
+      <section class="order-body">
+        <article class="order-container">
+          <h1 class="order-header">Order Summary</h1>
+          <p class="order-text">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </article>
+
+        <section class="pricing-container">
+          <img class="music-icon" src="src/images/icon-music.svg" alt="" />
+          <span class="plan-text"
+            >Annual Plan <span class="plan-cost">$59.99/year</span></span
+          >
+          <a href="#change-plan" class="change-plan">Change</a>
+        </section>
+
+        <footer class="card-footer">
+          <a class="payment" href="#proceed-to-payment">Proceed to Payment</a>
+          <a class="cancel-order" href="#cancel-order">Cancel Order</a>
+        </footer>
       </section>
-      <button>Proceed to Payment</button>
-      <a href="#" class="cancel-order">Cancel Order</a>
     </main>
-    <footer class="footer-text">
+
+    <footer class="page-footer">
       <p>
-        Frontend Mentor Challenge | Coded by:
-        <a href="https://github.com/DevTruce" target="_blank">Truce R</a>
+        Challenge by
+        <a
+          class="links"
+          href="https://www.frontendmentor.io/home"
+          target="_blank"
+          >Frontend Mentor</a
+        >
+      </p>
+      <p>
+        Coded by
+        <a class="links" href="https://github.com/DevTruce" target="_blank"
+          >Truce R</a
+        >
       </p>
     </footer>
   </body>
