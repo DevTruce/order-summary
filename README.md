@@ -14,13 +14,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/DevTruce/order-summary">
-    <img src="src/images//logo.png" alt="Logo" width="80" height="80">
+    <img src="src/imgs/favicon-32x32.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Order Summary Challenge</h3>
+<h3 align="center">Order Summary</h3>
 
   <p align="center">
-    Frontend Mentor - Order Summary Challenge.
+    frontend mentor challenge
     <br />
     <a href="https://github.com/DevTruce/order-summary" target="_blank"><strong>Explore the docs »</strong></a>
     <br />
@@ -47,6 +47,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -54,7 +55,6 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-
   </ol>
 </details>
 
@@ -64,17 +64,13 @@
 
 [![Product Name Screen Shot][product-screenshot]](product-link)
 
-This project is a challenge created by frontend mentor and coded by me.
-The goal is to build a responsive webpage based on the images/designs they provide.
-This particular challenge has you building a very nice order summary panel. There is some nice styles in my opinion and simple hover effects. Hovering some select elements in the footer, "change, "proceed to pay" & "cancel order" all have set hover effects as well as if you hover over the image I added a simple `transform: scale(1.2)` hover effect that turned out nice imo.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 - [![HTML5][html5-icon]][html5-link]
 - [![CSS3][css3-icon]][css3-link]
-- [![Flexbox][flexbox-icon]][flexbox-link]
+- [![SASS][sass-icon]][sass-link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,15 +78,33 @@ This particular challenge has you building a very nice order summary panel. Ther
 
 ## Getting Started
 
-[View Demo](https://devtruce.github.io/order-summary/)
-<img src="src/images/step1.png" alt="">
-<img src="src/images/step2.png" alt="">
-<img src="src/images/step3.png" alt="">
-
 ### Prerequisites
 
-- Mobile Phone / Desktop / Tablet
-- Internet
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/DevTruce/order-summary.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Dev environment
+   ```sh
+   npm run start
+   ```
+4. Build package
+   ```sh
+   npm run build
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
@@ -129,17 +143,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Email: [DevTruce@Gmail-icon]()
+Email: [DevTruce@Gmail.com]()
 
 Discord: [Xzypher#9999]()
-
-Project Link: [QR Code](https://github.com/DevTruce/order-summary)
-
-[![FEM][fem-icon]][fem-link]<br>
-[![Reddit][reddit-icon]][reddit-link] <br>
-[![Twitter][twitter-icon]][twitter-link]<br>
-[![LinkedIn][linkedin-icon]][linkedin-link]<br>
-[![Stackoverflow][stackoverflow-icon]][stackoverflow-link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,33 +178,15 @@ Project Link: [QR Code](https://github.com/DevTruce/order-summary)
 
 <!-- ## Project ## -->
 
-[product-screenshot]: src/images/screenshot.png
-[product-link]: https://LINK-HERE
-
-<!-- ## Socials ## -->
-<!-- links -->
-
-[fem-link]: https://www.frontendmentor.io/profile/DevTruce
-[stackoverflow-link]: https://stackoverflow-icon/users/16258101/dev-truce
-[twitter-link]: https://twitter-icon/DevTruce
-[reddit-link]: https://www.reddit-icon/user/DevTruce
-[linkedin-link]: https://www.linkedin-icon/in/trucer/
-
-<!-- icons -->
-
-[fem-icon]: https://img.shields.io/badge/fem-20232A?style=for-the-badge&logo=frontendmentor&logoColor=85CDFD
-[stackoverflow-icon]: https://img.shields.io/badge/stackoverflow-20232A?style=for-the-badge&logo=stackoverflow&logoColor=orange
-[twitter-icon]: https://img.shields.io/badge/twitter-20232A?style=for-the-badge&logo=twitter&logoColor=85CDFD
-[reddit-icon]: https://img.shields.io/badge/Reddit-orange?style=for-the-badge&logo=reddit&logoColor=white
-[linkedin-icon]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[product-screenshot]: src/imgs/project-view.png
+[product-link]: https://devtruce.github.io/order-summary/
 
 <!-- ## Tech & Tools ## -->
 <!-- links -->
 
 [html5-link]: https://html-icon/
 [css3-link]: https://css3-icon/
-[flexbox-link]: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
-[grid-link]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+[sass-link]: https://sass-lang.com/
 [bootstrap-link]: https://getbootstrap-icon
 [javascript-link]: https://www.javascript-icon/
 [reactjs-link]: https://reactjs.org/
@@ -209,8 +197,7 @@ Project Link: [QR Code](https://github.com/DevTruce/order-summary)
 
 [html5-icon]: https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white
 [css3-icon]: https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&logoColor=white
-[flexbox-icon]: https://img.shields.io/badge/flexbox-blue?style=for-the-badge&logo=CSS3&logoColor=white
-[grid-icon]: https://img.shields.io/badge/Grid-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[sass-icon]: https://img.shields.io/badge/SASS-AA77FF?style=for-the-badge&logo=SASS&logoColor=white
 [bootstrap-icon]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [javascript-icon]: https://img.shields.io/badge/Javascript-FCE22A?style=for-the-badge&logo=javascript&logoColor=black
 [reactjs-icon]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

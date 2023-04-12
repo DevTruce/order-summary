@@ -2,9 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <link rel="stylesheet" href="src/styles.css" />
 
     <link
       rel="icon"
@@ -13,56 +12,46 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <title>Order Summary</title>
   </head>
   <body>
-    <main class="card-container">
-      <picture class="image-container">
+    <main class="card">
+      <div class="card__heading">
         <img
-          class="image"
-          src="src/images/illustration-hero.svg"
-          alt="person dancing"
+          class="card__heading-img"
+          src="src/imgs/illustration-hero.svg"
+          alt=""
         />
-      </picture>
+      </div>
 
-      <section class="order-body">
-        <article class="order-container">
-          <h1 class="order-header">Order Summary</h1>
-          <p class="order-text">
-            You can now listen to millions of songs, audiobooks, and podcasts on
-            any device anywhere you like!
-          </p>
-        </article>
+      <h1 class="card__header">Order Summary</h1>
+      <p class="card__text">
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
 
-        <section class="pricing-container">
-          <img class="music-icon" src="src/images/icon-music.svg" alt="" />
-          <span class="plan-text"
-            >Annual Plan <span class="plan-cost">$59.99/year</span></span
-          >
-          <a href="#change-plan" class="change-plan">Change</a>
-        </section>
+      <div class="card__plan">
+        <img class="card__plan-img" src="src/imgs/icon-music.svg" alt="" />
+        <h2 class="card__plan-text">Annual Plan <span>$59.99/year</span></h2>
+        <a href="#" class="link card__plan-link">Change</a>
+      </div>
 
-        <footer class="card-footer">
-          <a class="payment" href="#proceed-to-payment">Proceed to Payment</a>
-          <a class="cancel-order" href="#cancel-order">Cancel Order</a>
-        </footer>
-      </section>
+      <button class="btn">Proceed to Payment</button>
+      <a href="#" class="card__cancel">Cancel Order</a>
     </main>
-
-    <footer class="page-footer">
-      <p>
-        Challenge by
+    <footer class="footer">
+      <p class="footer__text">
         <a
-          class="links"
           href="https://www.frontendmentor.io/home"
           target="_blank"
-          >Frontend Mentor</a
-        >
-      </p>
-      <p>
-        Coded by
-        <a class="links" href="https://github.com/DevTruce" target="_blank"
-          >Truce R</a
+          class="link"
+          >Frontend Mentor Challenge
+        </a>
+        Coded by:
+        <a href="https://github.com/DevTruce" target="_blank" class="link"
+          >Truce Ramcharitar</a
         >
       </p>
     </footer>
