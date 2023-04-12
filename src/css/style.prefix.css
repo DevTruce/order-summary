@@ -57,7 +57,7 @@ body {
 .card {
   width: 45rem;
   height: 69.7rem;
-  border-radius: 3rem;
+  border-radius: 2rem;
   background-color: rgb(255, 255, 255);
   grid-row: 1/2;
   grid-column: 2/3;
@@ -74,7 +74,7 @@ body {
   text-align: center;
 }
 .card__heading-img {
-  border-radius: 3rem 3rem 0 0;
+  border-radius: 2rem 2rem 0 0;
   display: block;
   width: 100%;
 }

@@ -3,7 +3,7 @@
 .card {
   width: 45rem;
   height: 69.7rem;
-  border-radius: 3rem;
+  border-radius: 2rem;
   background-color: $color-white;
 
   // grid placement
@@ -18,7 +18,7 @@
 
   &__heading {
     &-img {
-      border-radius: 3rem 3rem 0 0;
+      border-radius: 2rem 2rem 0 0;
       display: block;
       width: 100%;
     }
