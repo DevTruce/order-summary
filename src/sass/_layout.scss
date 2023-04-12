@@ -3,7 +3,7 @@
 .card {
   width: 45rem;
   height: 69.7rem;
-  border-radius: 1.5rem;
+  border-radius: 3rem;
   background-color: $color-white;
 
   // grid placement
@@ -18,7 +18,7 @@
 
   &__heading {
     &-img {
-      border-radius: 1.5rem 1.5rem 0 0;
+      border-radius: 3rem 3rem 0 0;
       display: block;
       width: 100%;
     }
@@ -37,7 +37,7 @@
 
   &__plan {
     width: 67.5%;
-    margin: 2.5rem 2rem 3.5rem 2rem;
+    margin: 2.5rem 0 3.5rem 0;
     padding: 2rem 3rem;
     border-radius: 1.5rem;
     background-color: $color-primary--light2;
@@ -61,6 +61,8 @@
 
     &-img {
       margin-right: 1.5rem;
+      width: 6.5rem;
+      height: 6.5rem;
     }
 
     &-link {
