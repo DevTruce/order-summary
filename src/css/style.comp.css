@@ -43,6 +43,11 @@ body {
   justify-items: center;
   align-items: center;
 }
+@media only screen and (max-width: 23.5em) {
+  body {
+    background-image: url(../imgs/pattern-background-mobile.svg);
+  }
+}
 
 .card {
   width: 45rem;

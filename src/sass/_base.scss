@@ -45,4 +45,8 @@ body {
   grid-template-columns: 1fr 80% 1fr;
   justify-items: center;
   align-items: center;
+
+  @include respond(phone) {
+    background-image: url(../imgs/pattern-background-mobile.svg);
+  }
 }
