@@ -1,0 +1,48 @@
+//////////////////////////////////////////////////
+// RESETS
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+  box-sizing: inherit;
+
+  @include respond(desktop) {
+    font-size: 45%;
+  }
+
+  @include respond(phone) {
+    font-size: 40%;
+  }
+
+  @include respond(small-phone) {
+    font-size: 32.5%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  font-size: $font-medium;
+  font-weight: 500;
+  font-family: "Red Hat Display";
+  color: $color-text-dark;
+
+  //   background styling
+  background-color: $color-primary--light;
+  background-image: url(../imgs/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  // grid setup
+  display: grid;
+  grid-template-rows: 1fr min-content;
+  grid-template-columns: 1fr 80% 1fr;
+  justify-items: center;
+  align-items: center;
+}

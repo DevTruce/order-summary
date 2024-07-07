@@ -1,0 +1,48 @@
+//////////////////////////////////////////////////
+// COLORS
+$color-white: rgba(255, 255, 255, 1);
+$color-black: rgba(0, 0, 0, 1);
+$color-grey: rgba(150, 150, 150, 1);
+
+$color-primary--light: hsl(225, 100%, 94%);
+$color-primary--light2: hsl(225, 100%, 98%);
+$color-primary--dark: hsl(245, 75%, 52%);
+$color-primary--dark2: hsl(245, 83%, 68%);
+$color-secondary: hsl(224, 23%, 55%);
+$color-tertiary: hsl(223, 47%, 23%);
+
+$color-text-light: hsl(224, 23%, 55%);
+$color-text-dark: hsl(223, 47%, 23%);
+
+//////////////////////////////////////////////////
+// FONTS
+
+$font-small: 1.4rem;
+$font-medium: 1.6rem;
+$font-large: 2rem;
+$font-huge: 2.8rem;
+
+//////////////////////////////////////////////////
+// MEDIA QUERY MANAGER
+@mixin respond($breakpoint) {
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 20.938em) {
+      // 335px
+      @content;
+    }
+  }
+
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 23.5em) {
+      // 376px
+      @content;
+    }
+  }
+
+  @if $breakpoint == desktop {
+    @media only screen and (max-width: 87.5em) {
+      // 1400px
+      @content;
+    }
+  }
+}
