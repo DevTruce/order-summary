@@ -5,8 +5,6 @@
 [![Contributors][contributors-icon]][contributors-link]
 [![Forks][forks-icon]][forks-link]
 [![Stargazers][stars-icon]][stars-link]
-[![Issues][issues-icon]][issues-link]
-[![MIT License][license-icon]][license-link]
 
 </div>
 
@@ -22,31 +20,11 @@
   <p align="center">
     frontend mentor challenge
     <br />
-    <a href="https://github.com/DevTruce/order-summary" target="_blank"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://devtruce.github.io/order-summary/" target="_blank">View Demo</a>
-    ·
-    <a href="https://github.com/DevTruce/order-summary/issues" target="_blank">Report Bug</a>
-    ·
-    <a href="https://github.com/DevTruce/order-summary/issues" target="_blank">Request Feature</a>
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    </li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
