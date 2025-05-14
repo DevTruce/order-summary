@@ -18,7 +18,7 @@
 <h3 align="center">Order Summary</h3>
 
   <p align="center">
-    A clean and modern order summary card component.
+    clean and modern order summary card component.
     <br />
     <br />
     <a href="https://devtruce.github.io/order-summary/" target="_blank">View Demo</a>
